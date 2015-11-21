@@ -21,7 +21,7 @@ function even_group_calculate_average(arr) {
 	if(one.length==0 && two.length==0){
 		t = [];
 		t[0]=r[2];
-		return t;
+		return t[0];
 	}
 	if(two.length==0)
 		r[1]=0;
